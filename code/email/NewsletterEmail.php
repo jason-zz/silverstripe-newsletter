@@ -109,6 +109,7 @@ class NewsletterEmail extends Email {
 						}
 						
 						// replace the link
+						//test
 						$replacements[$link] = $tracked->Link();
 						
 						// track that this link is still active
